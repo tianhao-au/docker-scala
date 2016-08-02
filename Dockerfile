@@ -23,5 +23,4 @@ RUN cd /tmp/build && \
   (sbt test:compile || sbt test:compile || sbt test:compile) && \
   rm -rf /tmp/build
 
-ENTRYPOINT ["sbt"]
-CMD ["-help"]
+CMD ["sbt"]
