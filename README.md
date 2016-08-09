@@ -46,11 +46,11 @@
 
 ## Optimisation of the build
 In order to have fast CI (continuous integration) build process, sample of your `project/build.properties` and `build.sbt` should be like:
+
 1. `project/build.properties`
   ```
   sbt.version = 0.13.11
   ```
-and
 
 2. `build.sbt`
   ```
