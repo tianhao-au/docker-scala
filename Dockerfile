@@ -1,4 +1,5 @@
 FROM anapsix/alpine-java:jdk8
+MAINTAINER Tianhao Li <ysihaoy@gmail.com>
 
 # Install sbt
 RUN apk add --update bash curl openssl ca-certificates && \
