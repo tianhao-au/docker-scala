@@ -1,5 +1,8 @@
 # Scala Docker Image
 
+[![](https://images.microbadger.com/badges/image/ysihaoy/scala.svg)](http://microbadger.com/images/ysihaoy/scala "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/ysihaoy/scala.svg)](http://microbadger.com/images/ysihaoy/scala "Get your own version badge on microbadger.com")
+
 ## Introduction
 1. Dockerhub: [ysihaoy/scala](https://hub.docker.com/r/ysihaoy/scala/)
 2. Docker image for Scala and SBT project with different versions
