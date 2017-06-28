@@ -1,8 +1,8 @@
 FROM anapsix/alpine-java:jdk8
 MAINTAINER Tianhao Li <ysihaoy@gmail.com>
 
-ENV SBT_VERSION 0.13.13
-ENV CHECKSUM 701ac8873b9f91c591c86cbd74b2b7057f9cfeeee374cc9bc07303243b6fb5e7
+ENV SBT_VERSION 0.13.15
+ENV CHECKSUM 18b106d09b2874f2a538c6e1f6b20c565885b2a8051428bd6d630fb92c1c0f96
 
 # Install sbt
 RUN apk add --update bash curl openssl ca-certificates && \
@@ -14,8 +14,8 @@ RUN apk add --update bash curl openssl ca-certificates && \
   mkdir -p /opt/sbt && \
   unzip /tmp/sbt.zip -d /opt/sbt && \
   rm /tmp/sbt.zip && \
-  chmod +x /opt/sbt/sbt-launcher-packaging-${SBT_VERSION}/bin/sbt && \
-  ln -s /opt/sbt/sbt-launcher-packaging-${SBT_VERSION}/bin/sbt /usr/bin/sbt && \
+  chmod +x /opt/sbt/sbt/bin/sbt && \
+  ln -s /opt/sbt/sbt/bin/sbt /usr/bin/sbt && \
   rm -rf /tmp/* /var/cache/apk/*
 
 # Prebuild with sbt
