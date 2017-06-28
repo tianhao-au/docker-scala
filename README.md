@@ -5,7 +5,7 @@
 
 ## Introduction
 1. Dockerhub: [ysihaoy/scala](https://hub.docker.com/r/ysihaoy/scala/)
-2. Docker image for Scala and SBT project with different versions
+2. Docker image for Scala and SBT project with different version combinations
 
 ## How to use in your Scala SBT project
 1. Sample of your minimal project structure
