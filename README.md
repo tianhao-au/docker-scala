@@ -7,6 +7,15 @@
 1. Dockerhub: [ysihaoy/scala](https://hub.docker.com/r/ysihaoy/scala/)
 2. Docker image for Scala and SBT project with different version combinations
 
+## Supported tags (combinations of Scala and SBT) and Dockerfile links
+* 2.12.2-sbt-1.0.0.rc2, [Dockerfile](https://github.com/ysihaoy/docker-scala/blob/2.12.2-sbt-1.0.0.rc2/Dockerfile)
+
+* 2.12.2-sbt-0.13.15, [Dockerfile](https://github.com/ysihaoy/docker-scala/blob/2.12.2-sbt-0.13.15/Dockerfile)
+
+* 2.12.0-sbt-0.13.13, [Dockerfile](https://github.com/ysihaoy/docker-scala/blob/2.12.0-sbt-0.13.13/Dockerfile)
+
+* 2.11.8-sbt-0.13.11, [Dockerfile](https://github.com/ysihaoy/docker-scala/blob/2.11.8-sbt-0.13.11/Dockerfile)
+
 ## How to use in your Scala SBT project
 1. Sample of your minimal project structure
 
