@@ -29,7 +29,7 @@
 2. Sample of your `Dockerfile` should be like:
 
   ```
-  FROM ysihaoy/scala:2.12.2-sbt-0.13.15
+  FROM ysihaoy/scala:2.12.2-sbt-1.0.0.rc2
 
   # caching dependencies
   COPY ["build.sbt", "/tmp/build/"]
@@ -52,7 +52,7 @@ In order to have fast CI (continuous integration) build process, sample of your 
 
 1. `project/build.properties`
   ```
-  sbt.version = 0.13.15
+  sbt.version = 1.0.0-RC2
   ```
 
 2. `build.sbt`
@@ -60,4 +60,4 @@ In order to have fast CI (continuous integration) build process, sample of your 
   scalaVersion := "2.12.2"
   ```
 
-## Happy hacking Scala and Docker
+## You are an awesome Scala developer :-)

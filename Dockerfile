@@ -1,13 +1,13 @@
 FROM openjdk:8-jdk-alpine
 MAINTAINER Tianhao Li <ysihaoy@gmail.com>
 
-ENV SBT_VERSION 0.13.15
-ENV CHECKSUM 18b106d09b2874f2a538c6e1f6b20c565885b2a8051428bd6d630fb92c1c0f96
+ENV SBT_VERSION 1.0.0-RC2
+ENV CHECKSUM 77281ada91165e8061f01625c55e992c8f74bf036d8cdd09a9f25240d12fb26f
 
 # Install sbt
 RUN apk add --update bash curl openssl ca-certificates && \
   curl -L -o /tmp/sbt.zip \
-    https://dl.bintray.com/sbt/native-packages/sbt/${SBT_VERSION}/sbt-${SBT_VERSION}.zip && \
+    https://github.com/sbt/sbt/releases/download/v${SBT_VERSION}/sbt-${SBT_VERSION}.zip && \
   openssl dgst -sha256 /tmp/sbt.zip \
     | grep ${CHECKSUM} \
     || (echo 'shasum mismatch' && false) && \
