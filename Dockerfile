@@ -1,4 +1,4 @@
-FROM anapsix/alpine-java:jdk8
+FROM openjdk:8-jdk-alpine
 MAINTAINER Tianhao Li <ysihaoy@gmail.com>
 
 ENV SBT_VERSION 1.0.0-RC2
