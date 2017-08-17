@@ -1,8 +1,8 @@
 FROM openjdk:8-jdk-alpine
 MAINTAINER Tianhao Li <ysihaoy@gmail.com>
 
-ENV SBT_VERSION 1.0.0-RC2
-ENV CHECKSUM 77281ada91165e8061f01625c55e992c8f74bf036d8cdd09a9f25240d12fb26f
+ENV SBT_VERSION 1.0.0
+ENV CHECKSUM ecafdb3a965ee3dde3539f042624571409795c4a4fbfac5d7448503e21a37382
 
 # Install sbt
 RUN apk add --update bash curl openssl ca-certificates && \
