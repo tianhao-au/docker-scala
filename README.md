@@ -8,6 +8,8 @@
 2. Docker image for Scala and SBT project with different version combinations
 
 ## Supported tags (combinations of Scala and SBT) and Dockerfile links
+* 2.12.3-sbt-1.0.0, [Dockerfile](https://github.com/ysihaoy/docker-scala/blob/2.12.3-sbt-1.0.0/Dockerfile)
+
 * 2.12.2-sbt-1.0.0.rc2, [Dockerfile](https://github.com/ysihaoy/docker-scala/blob/2.12.2-sbt-1.0.0.rc2/Dockerfile)
 
 * 2.12.2-sbt-0.13.15, [Dockerfile](https://github.com/ysihaoy/docker-scala/blob/2.12.2-sbt-0.13.15/Dockerfile)
