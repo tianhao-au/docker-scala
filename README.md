@@ -8,6 +8,8 @@
 2. Docker image for Scala and SBT project with different version combinations
 
 ## Supported tags (combinations of Scala and SBT) and Dockerfile links
+* 2.12.4-sbt-1.0.4, [Dockerfile](https://github.com/ysihaoy/docker-scala/blob/2.12.4-sbt-1.0.4/Dockerfile)
+
 * 2.12.3-sbt-1.0.0, [Dockerfile](https://github.com/ysihaoy/docker-scala/blob/2.12.3-sbt-1.0.0/Dockerfile)
 
 * 2.12.2-sbt-1.0.0.rc2, [Dockerfile](https://github.com/ysihaoy/docker-scala/blob/2.12.2-sbt-1.0.0.rc2/Dockerfile)
@@ -40,7 +42,7 @@
 2. Sample of your `Dockerfile` should be like:
 
   ```
-  FROM ysihaoy/scala:2.12.2-sbt-1.0.0.rc2
+  FROM ysihaoy/scala:2.12.4-sbt-1.0.4
 
   # caching dependencies
   COPY ["build.sbt", "/tmp/build/"]
@@ -63,12 +65,12 @@ In order to have fast CI (continuous integration) build process, sample of your 
 
 1. `project/build.properties`
   ```
-  sbt.version = 1.0.0-RC2
+  sbt.version = 1.0.4
   ```
 
 2. `build.sbt`
   ```
-  scalaVersion := "2.12.2"
+  scalaVersion := "2.12.4"
   ```
 
 ## You are an awesome Scala developer :-)
